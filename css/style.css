@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar-inverse {
+    background-color: #333;
+    border-color: #333;
+    margin-bottom: 0; /* Remove o espaço abaixo da navbar */
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+    padding-top: 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    background-color: #575757;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.container-fluid {
+    padding: 0; /* Remove o padding da container-fluid */
+}
+
+.carousel {
+    margin-bottom: 20px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto; /* Mantém a proporção das imagens */
+}
+
+.carousel-caption {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5); /* Adiciona um fundo semitransparente para melhor legibilidade */
+}
+
+.container {
+    margin-top: 20px; /* Espaçamento entre o carousel e o conteúdo */
+}
+
+.section {
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.section p {
+    color: #666;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-top: 20px; /* Espaçamento entre o conteúdo e o rodapé */
+}
