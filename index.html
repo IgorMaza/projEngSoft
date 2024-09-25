@@ -8,9 +8,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
@@ -18,87 +15,57 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Turismo</title>
+
 </head>
 
 <body>
 
-    <div class="container-fluid">
-
+    <header class="header">
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
+                <img src="https://raw.githubusercontent.com/matheushssilvaa/engenharia-software/refs/heads/main/img/logo%20png%20preta.png?token=GHSAT0AAAAAACWNLPRHS3LAEWY26GABE4CWZXUR7YQ"
+                    id="logo" alt="logo" />
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
+                    <button type="button" id="btn-mobile" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#myNavbar">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-
-                    <a href=".html"><img class="img-responsive" src="" width="70" height="50" alt=""></a>
-
                 </div>
-
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
+                <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
-                        <a class="navbar-brand" href=".html" style="padding-top: 25px;">
-                            <h4>Pontos Turísticos</h4>
-                        </a>
-
-                        <a class="navbar-brand" href=".html" style="padding-top: 25px;">
-                            <h4>Acomodações</h4>
-                        </a>
-
-                        <a class="navbar-brand" href=".html" style="padding-top: 25px;">
-                            <h4>Refeitório e Pscina</h4>
-                        </a>
-
-                        <a class="navbar-brand" href=".html" style="padding-top: 25px;">
-                            <h4>Área Recreativa</h4>
-                        </a>
-
-                        <a class="navbar-brand" href=".html" style="padding-top: 25px;">
-                            <h4>Pacotes Promocionais</h4>
-                        </a>
-
-                        <a class="navbar-brand" href=".html" style="padding-top: 25px;">
-                            <h4>Fale Conosco</h4>
-                        </a>
+                        <li class="active"><a href="#">Início</a></li>
+                        <li><a href="#">Pontos Turísticos</a></li>
+                        <li><a href="#">Acomodações</a></li>
+                        <li><a href="#">Refeitório e Piscina</a></li>
+                        <li><a href="#">Área Recriativa</a></li>
+                        <li><a href="#">Pacotes Promocionais</a></li>
+                        <li><a href="#">Fale Conosco</a></li>
                     </ul>
-
-                    <!--
-                    <ul class="nav navbar-nav navbar-right">    
-                        <li><a class="navbar-brand" href="cadastrar.html"><span class="glyphicon glyphicon-user" style="padding-top: 10px;"></span> Cadastre-se</a></li>
-                        <li><a class="navbar-brand" href="login.html"><span class="glyphicon glyphicon-log-in" style="padding-top: 10px;"></span> Login</a></li>    
-                    </ul>
-                    -->
-
-                </div>
-
-            </div>
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <a href=".html"><img class="img-responsive" src="" alt=""></a>
+                    <div class="sociais">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-solid fa-map-pin"></i>
+                    </div>
                 </div>
             </div>
         </nav>
-    </div>
+    </header>
+
     <center>
         <h3>Restaurantes e Piscinas</h3>
     </center>
     <div class="container-fluid">
 
         <!-- Início Carousel -->
-
         <div class="row" style="padding-top: 10px">
             <div class="col-lg-12 col-sm-12 col-xs-12">
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active">
-                        </li>
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                         <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                         <li data-target="#carousel-example-generic" data-slide-to="3"></li>
@@ -110,43 +77,29 @@
                             <center>
                                 <a href=".html"><img class="img-responsive"
                                         src="https://grandehotelsenac.com.br/wp-content/uploads/2023/06/GHJ_Gastronomia_Restaurante_Grande_Hotel_Ala_B_302.jpg"
-                                        alt="" style="width: 90%; height: 600px;"></a>
+                                        alt="" style="width: 1200px; height: 600px;"></a>
                             </center>
-                            <div class="carousel-caption">
-
-                            </div>
                         </div>
-
                         <div class="item">
                             <center>
                                 <a href=".html"><img class="img-responsive"
                                         src="https://grandehotelsenac.com.br/wp-content/uploads/2023/06/GHJ_Gastronomia_Restaurante_Grande_Hotel_Ala_B_301.jpg"
-                                        alt="" style="width: 90%; height: 600px;"></a>
+                                        alt="" style="width: 1200px; height: 600px;"></a>
                             </center>
-                            <div class="carousel-caption">
-                                <h3></h3>
-                            </div>
                         </div>
-
                         <div class="item">
                             <center>
                                 <a href=".html"><img class="img-responsive"
                                         src="https://static.wixstatic.com/media/d8e7fa_3fb62ae53da246b8af9fdfd8f96a5e33~mv2.jpg/v1/fill/w_1242,h_925,al_c/d8e7fa_3fb62ae53da246b8af9fdfd8f96a5e33~mv2.jpg"
-                                        alt="" style="width: 90%; height: 600px;"></a>
+                                        alt="" style="width: 1200px; height: 600px;"></a>
                             </center>
-                            <div class="carousel-caption">
-                                <h3></h3>
-                            </div>
                         </div>
                         <div class="item">
                             <center>
                                 <a href=".html"><img class="img-responsive"
                                         src="https://soubh.uai.com.br/uploads/thumbnail/image/2564/maquine-park-hotel-piscina.jpg"
-                                        alt="" style="width: 90%; height: 600px;"></a>
+                                        alt="" style="width: 1200px; height: 600px;"></a>
                             </center>
-                            <div class="carousel-caption">
-                                <h3></h3>
-                            </div>
                         </div>
                     </div>
 
@@ -167,38 +120,91 @@
         <section id="restaurants">
             <h2>Restaurantes</h2>
             <div class="section">
-                <p>Experimente uma variedade de pratoss deliciosos em nossos restaurantes, que oferecem desde pratos
-                    locais até opções internacionais. Nossos chefs utilizam ingredientes frescos e de alta qualidade
-                    para garantir uma experiência gastronômica inesquecível.</p>
-                <p><strong>Restaurante Vista Mar:</strong> Desfrute de uma vista panorâmica enquanto saboreia pratos
-                    de
-                    frutos do mar e uma seleção de vinhos finos.</p>
-                <p><strong>Restaurante Tradição:</strong> Oferece um menu diversificado com pratos tradicionais e
-                    caseiros, perfeitos para todas as idades.</p>
+                <div class="image-container">
+                    <img src="https://cdn.supergasbras.com.br/-/media/sites/brazil/super-blog/pratos-tpicos.png?mw=1366&rev=a5eaad7a4d9e4b2ebb53cf694ab68472"
+                        alt="Restaurante Vista Mar" class="image-wrapper" style="width: 300px; height: 200px;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRav1AmVtp0nMp1XdIXS2cyJqnrJffdGvZC_A&s"
+                        alt="Restaurante Tradição" class="image-wrapper" style="width: 300px; height: 200px;">
+                </div>
+                <div class="text-container">
+                    <p>Experimente uma variedade de pratos deliciosos em nossos restaurantes, que oferecem desde pratos
+                        locais até opções internacionais. Nossos chefs utilizam ingredientes frescos e de alta qualidade
+                        para garantir uma experiência gastronômica inesquecível.</p>
+                    <p><strong>Restaurante Vista Mar:</strong> Desfrute de uma vista panorâmica enquanto saboreia pratos
+                        de frutos do mar e uma seleção de vinhos finos.</p>
+                    <p><strong>Restaurante Tradição:</strong> Oferece um menu diversificado com pratos tradicionais e
+                        caseiros, perfeitos para todas as idades.</p>
+                </div>
             </div>
         </section>
-
+    
         <section id="pools">
             <h2>Piscinas</h2>
             <div class="section">
-                <p>Relaxe e divirta-se em nossas incríveis piscinas, projetadas para todos os gostos. Temos piscinas
-                    para adultos e crianças, além de áreas com hidromassagem e espreguiçadeiras.</p>
-                <p><strong>Piscina Principal:</strong> Uma grande piscina com uma vista maravilhosa e espaço
-                    suficiente
-                    para todos.</p>
-                <p><strong>Piscina Infantil:</strong> Área segura e divertida para as crianças, com brinquedos e
-                    jogos
-                    aquáticos.</p>
+                <div class="text-container">
+                    <p>Relaxe e divirta-se em nossas incríveis piscinas, projetadas para todos os gostos. Temos piscinas
+                        para adultos e crianças, além de áreas com hidromassagem e espreguiçadeiras.</p>
+                    <p><strong>Piscina Principal:</strong> Uma grande piscina com uma vista maravilhosa e espaço
+                        suficiente para todos.</p>
+                    <p><strong>Piscina Infantil:</strong> Área segura e divertida para as crianças, com brinquedos e
+                        jogos aquáticos.</p>
+                </div>
+                <div class="image-container">
+                    <img src="https://static.wixstatic.com/media/d8e7fa_0a3029efeaed45ff9154721a96ec4846~mv2.png/v1/fill/w_568,h_729,al_c,q_90,enc_auto/d8e7fa_0a3029efeaed45ff9154721a96ec4846~mv2.png" 
+                    alt="Piscina Principal" class="pool-image" style="width: 300px; height: 200px;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSillJV0mO5XUenjc5DDFpSEoZ1sRllmOuX9WNchGsuJD6q_TEOI1nMEZfb2n5pq9tOVCU&usqp=CAU" 
+                    alt="Piscina Infantil" class="pool-image" style="width: 300px; height: 200px;">
+                </div>
             </div>
         </section>
     </div>
+    
+    
 
-    <footer>
-        <p>&copy; 2024 Estância Turística. Todos os direitos reservados.</p>
+
+    <footer class="footer">
+        <div class="container">
+            <img src="https://raw.githubusercontent.com/matheushssilvaa/engenharia-software/refs/heads/main/img/logo%20png%20branca.png?token=GHSAT0AAAAAACWNLPRGRLXBLYMKK4RGJGGYZXUR7CQ"
+                class="logo-footer" alt="logo-footer" />
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Quem Somos</h2>
+                    <p class="description-footer">Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                        has roots in a piece of classical Latin literature from 45 BC, making it over 2000 anos old.
+                        Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of
+                        the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the
+                        cites of the word in classical literature, discovered the undoubtable source.</p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Menu</h2>
+                    <p>Pontos Turísticos</p>
+                    <p>Acomodações</p>
+                    <p>Refeitório e Piscina</p>
+                    <p>Área Recreativa</p>
+                    <p>Pacotes Promocionais</p>
+                    <p>Fale Conosco</p>
+                    <p>Quem somos</p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Endereço</h2>
+                    <p>Localidade: Gramado - RS</p>
+                    <p>Telefone: (XX) XXXXX-XXXX</p>
+                    <p>Email: contato@turistica.com.br</p>
+                    <h3>Newsletter</h3>
+                    <input type="email" name="email" id="newsletter" placeholder="Seu email aqui..." />
+                    <input type="submit" value="Enviar" id="submit-newsletter" />
+                    <div class="sociais-footer">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-solid fa-map-pin"></i>
+                    </div>
+                </div>
+            </div>
+            <span>© Turistica - todos os direitos reservados 2024</span>
+        </div>
     </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>
