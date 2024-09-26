@@ -19,6 +19,7 @@ body {
 }
 
 body {
+    font-size: 17px;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
@@ -305,29 +306,42 @@ footer {
 
 .section {
     display: flex;
-    justify-content: space-between; /* Alinha o texto e as imagens nas extremidades */
-    margin-bottom: 20px; /* Espaçamento entre seções */
+    justify-content: space-between;
+    /* Alinha o texto e as imagens nas extremidades */
+    margin-bottom: 20px;
+    /* Espaçamento entre seções */
 }
 
 .text-container {
-    flex: 1; /* O texto ocupa o restante do espaço */
-    padding-right: 20px; /* Espaçamento à direita do texto */
+    flex: 1;
+    /* O texto ocupa o restante do espaço */
+    padding-right: 20px;
+    /* Espaçamento à direita do texto */
 }
 
 .image-container {
-    flex: 0 0 30%; /* Ajusta a largura do container das imagens (30% da seção) */
+    flex: 0 0 30%;
+    /* Ajusta a largura do container das imagens (30% da seção) */
     display: flex;
-    flex-direction: column; /* Imagens em coluna */
-    align-items: flex-start; /* Alinha as imagens à esquerda */
+    flex-direction: column;
+    /* Imagens em coluna */
+    align-items: flex-start;
+    /* Alinha as imagens à esquerda */
 }
 
 .image-wrapper {
-    margin-bottom: 15px; /* Espaçamento entre as imagens */
-    width: 100%; /* Faz com que as imagens ocupem toda a largura da div */
-    height: auto; /* Mantém a proporção da imagem */
+    margin-bottom: 15px;
+    /* Espaçamento entre as imagens */
+    width: 100%;
+    /* Faz com que as imagens ocupem toda a largura da div */
+    height: auto;
+    /* Mantém a proporção da imagem */
 }
 
 .pool-image {
-    width: 100%; /* Faz com que as imagens da piscina ocupem toda a largura da div */
-    height: auto; /* Mantém a proporção da imagem */
+    margin-bottom: 15px;
+    width: 100%;
+    /* Faz com que as imagens da piscina ocupem toda a largura da div */
+    height: auto;
+    /* Mantém a proporção da imagem */
 }
